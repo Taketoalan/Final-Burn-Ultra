@@ -1,0 +1,399 @@
+window#fbneo-window,
+window {
+    background-color: #080d13;
+    color: #e6f1ff;
+}
+
+headerbar {
+    background-image: linear-gradient(to bottom, #0c141d, #080d13);
+    border-bottom: 1px solid #16222e;
+    min-height: 48px;
+}
+
+headerbar .title {
+    color: #8ea3b5;
+    font-size: 11px;
+}
+
+.app-title {
+    color: #eaf7ff;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.version-badge {
+    color: #071016;
+    background-image: linear-gradient(to bottom, #ffd166, #ff9f1c);
+    border-radius: 9px;
+    padding: 1px 8px;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.header-hint {
+    color: #52687a;
+    font-size: 10px;
+    margin-left: 12px;
+}
+
+.header-menu-button {
+    background: transparent;
+    border: none;
+    color: #a7bccd;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.header-menu-button:hover {
+    background: rgba(0, 229, 255, 0.10);
+}
+
+.sidebar {
+    background-image: linear-gradient(to bottom, #0a1118, #080d13);
+    border-right: 1px solid #16222e;
+}
+
+.sidebar-list {
+    background: transparent;
+    padding: 8px 6px 16px 6px;
+}
+
+.sidebar-list row {
+    border-radius: 8px;
+    margin: 1px 6px;
+}
+
+.sidebar-list row:selected {
+    background-image: linear-gradient(to right, rgba(0, 229, 255, 0.18), rgba(0, 229, 255, 0.03));
+    border-left: 2px solid #00e5ff;
+}
+
+.sidebar-list row:hover:not(:selected) {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.sidebar-item {
+    color: #aabbc9;
+}
+
+row:selected .sidebar-item {
+    color: #eafcff;
+}
+
+.section-label {
+    color: #52687a;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1.6px;
+}
+
+.sidebar-count {
+    color: #668096;
+    font-size: 10px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 1px 6px;
+}
+
+row:selected .sidebar-count {
+    color: #00e5ff;
+    background: rgba(0, 229, 255, 0.12);
+}
+
+.sidebar-icon {
+    color: #7b94a8;
+}
+
+row:selected .sidebar-icon {
+    color: #00e5ff;
+}
+
+.toolbar {
+    background-color: #0a1118;
+    border-bottom: 1px solid #16222e;
+}
+
+.search-entry {
+    background-color: #0f1a24;
+    border: 1px solid #1c3040;
+    border-radius: 19px;
+    color: #e6f1ff;
+    padding: 7px 12px;
+    min-height: 24px;
+}
+
+.search-entry:focus {
+    border-color: rgba(0, 229, 255, 0.6);
+    box-shadow: 0 0 0 1px rgba(0, 229, 255, 0.22);
+}
+
+.toolbar-count {
+    color: #6f879a;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.icon-button {
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+    color: #8ea3b5;
+}
+
+.icon-button:hover {
+    background: rgba(0, 229, 255, 0.10);
+    color: #00e5ff;
+}
+
+.list-scroll {
+    background-color: #080d13;
+    border: none;
+}
+
+.game-list {
+    background-color: transparent;
+    color: #dbe7f2;
+}
+
+.game-list treeview.view {
+    background-color: transparent;
+}
+
+.game-list treeview.view:selected {
+    background-image: linear-gradient(to right, rgba(0, 229, 255, 0.22), rgba(0, 229, 255, 0.05));
+    color: #ffffff;
+}
+
+.game-list treeview.view:hover:not(:selected) {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.game-list header button {
+    background: #0a1118;
+    color: #61798d;
+    border: none;
+    border-bottom: 1px solid #16222e;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    padding: 8px;
+}
+
+.preview-panel {
+    background-image: linear-gradient(to bottom, #0a1118, #080d13);
+    border-left: 1px solid #16222e;
+}
+
+.art-frame {
+    background-color: #0b131c;
+    border: 1px solid #1a2a38;
+    border-radius: 10px;
+}
+
+.game-title {
+    color: #f2f8ff;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.badge {
+    background-color: rgba(0, 229, 255, 0.13);
+    color: #00e5ff;
+    border: 1px solid rgba(0, 229, 255, 0.25);
+    border-radius: 7px;
+    padding: 2px 8px;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+}
+
+.badge-alt {
+    background-color: rgba(255, 159, 28, 0.10);
+    color: #ffb454;
+    border: 1px solid rgba(255, 159, 28, 0.25);
+    border-radius: 7px;
+    padding: 2px 8px;
+    font-size: 9px;
+    font-weight: 800;
+}
+
+.meta-label {
+    color: #8ba1b3;
+    font-size: 11px;
+}
+
+.path-title {
+    color: #52687a;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+}
+
+.path-label {
+    color: #637c90;
+    font-size: 10px;
+}
+
+.preview-separator {
+    background-color: #182634;
+    min-height: 1px;
+}
+
+.play-button {
+    background-image: linear-gradient(to bottom, #00d4e8, #00a6c2);
+    color: #041015;
+    border: none;
+    border-radius: 9px;
+    font-weight: 800;
+}
+
+.play-button:hover {
+    background-image: linear-gradient(to bottom, #22ecff, #00c3df);
+}
+
+.play-button:disabled {
+    background-image: none;
+    background-color: #14202b;
+    color: #4b6072;
+}
+
+.play-label {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.8px;
+}
+
+.favorite-button {
+    background-color: #0f1a24;
+    color: #a9bdcc;
+    border: 1px solid #1d3040;
+    border-radius: 9px;
+    padding: 6px;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.favorite-button:hover {
+    background-color: #142230;
+    color: #ffd166;
+    border-color: rgba(255, 209, 102, 0.35);
+}
+
+.favorite-button:checked {
+    background-color: rgba(255, 209, 102, 0.10);
+    color: #ffd166;
+    border-color: rgba(255, 209, 102, 0.45);
+}
+
+.status-bar {
+    background-color: #070b10;
+    border-top: 1px solid #14202b;
+}
+
+.status-text {
+    color: #60798c;
+    font-size: 10px;
+}
+
+.status-emulator {
+    color: #8ea3b5;
+    font-size: 10px;
+    font-weight: 600;
+    background: rgba(0, 229, 255, 0.06);
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+.empty-icon {
+    color: #294255;
+}
+
+.empty-title {
+    color: #e6f1ff;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.empty-subtitle {
+    color: #70879a;
+    font-size: 12px;
+}
+
+.settings-button {
+    background-color: rgba(0, 229, 255, 0.12);
+    color: #00e5ff;
+    border: 1px solid rgba(0, 229, 255, 0.3);
+    border-radius: 8px;
+    padding: 7px 16px;
+    font-weight: 700;
+}
+
+.settings-button:hover {
+    background-color: rgba(0, 229, 255, 0.2);
+}
+
+.settings-heading {
+    color: #00e5ff;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.settings-hint {
+    color: #6b8193;
+    font-size: 10px;
+}
+
+.settings-roms {
+    background-color: #0a1118;
+    border: 1px solid #1a2a38;
+    border-radius: 8px;
+}
+
+.settings-dialog {
+    background-color: #0b131c;
+}
+
+entry {
+    background-color: #0a1118;
+    border: 1px solid #1c3040;
+    border-radius: 7px;
+    color: #e6f1ff;
+    padding: 6px 9px;
+}
+
+entry:focus {
+    border-color: rgba(0, 229, 255, 0.55);
+}
+
+button {
+    background-image: none;
+    background-color: #13202c;
+    color: #c9d9e6;
+    border: 1px solid #1e3344;
+    border-radius: 7px;
+    padding: 6px 12px;
+}
+
+button:hover {
+    background-color: #192b3a;
+    border-color: #2a465b;
+}
+
+checkbutton {
+    color: #a9bdcc;
+}
+
+separator {
+    background-color: #182634;
+}
+
+tooltip {
+    background-color: #0f1a24;
+    color: #dbe7f2;
+    border: 1px solid #243b4d;
+    border-radius: 6px;
+}

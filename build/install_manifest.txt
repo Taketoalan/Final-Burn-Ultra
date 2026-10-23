@@ -1,0 +1,3 @@
+/tmp/fbneo-install/bin/fbneo-ultra
+/tmp/fbneo-install/share/applications/fbneo-ultra.desktop
+/tmp/fbneo-install/share/icons/hicolor/scalable/apps/fbneo-ultra.svg

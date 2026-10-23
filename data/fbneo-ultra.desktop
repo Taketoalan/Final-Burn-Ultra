@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=FB Neo Ultra
+GenericName=Frontend para FinalBurn Neo
+Comment=Biblioteca y lanzador GTK3 para FinalBurn Neo
+Exec=fbneo-ultra
+Icon=fbneo-ultra
+Terminal=false
+Categories=Game;Emulator;
+Keywords=FBNeo;FB Neo;Arcade;Neo Geo;CPS1;CPS2;CPS3;Emulador;
+StartupNotify=true
+StartupWMClass=fbneo-ultra
